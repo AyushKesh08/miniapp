@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import com.ayush.entities.UserEntity;
 
 @RepositoryRestResource(path="users")
-@CrossOrigin(origins="http://localhost:5173/")
+@CrossOrigin(origins="https://ayushcodeweb.online/")
 public interface UserRepo extends JpaRepository<UserEntity, Integer>{
 
 }
